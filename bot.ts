@@ -83,7 +83,7 @@ bot.command("luz", async (ctx) => {
 });
 
 // Manejador de comandos de ayuda
-bot.command(["ayuda", "help"], (ctx) => {
+bot.command(["ayuda", "help", "start"], (ctx) => {
   const mensajeAyuda = `
 🤖 *Guía de Bot de Precios de Luz* 🤖
 
